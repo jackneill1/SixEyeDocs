@@ -1,7 +1,7 @@
 SixEye Documentation
 ********************
 
-Welcome to portal documentation for SixEye. 
+Welcome to portal documentation for SixEye. I added this text locally. 
 
 This document will cover all things related to SixEye.
 
