@@ -1,18 +1,15 @@
 Permissions
 ***********
 
-Permissions in core init
+Permissions in SixEye allow for grannular customisation of what a user can do per project/device or portal level project or device. 
 
-.. figure:: img/pika.jpg
+.. figure:: img/perm_temp.png
    :align:   left
 
-First page heading
-==================
+Contexts
+--------
 
-Some **text**
 
-Second sub-heading
-------------------
 
 Some *additional* text
 
@@ -24,3 +21,14 @@ Another sub-heading
 
 Second page heading
 ===================
+
+=====  =====  ======
+   Inputs     Output
+------------  ------
+  A      B    A or B
+=====  =====  ======
+False  False  False
+True   False  True
+False  True   True
+True   True   True
+=====  =====  ======
