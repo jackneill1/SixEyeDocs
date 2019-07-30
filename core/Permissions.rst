@@ -1,10 +1,17 @@
 Permissions
 ***********
 
-Permissions in SixEye allow for grannular customisation of what a user can do per project/device or portal level project or device. 
+Permissions in SixEye allow for granular customisation of what a user can do per individual project/device or at a portal level per project/device. 
 
 .. figure:: img/perm_temp.png
    :align:   left
+
+
+Permissions are listed vertically and the users within the current context are listed horizontally. 
+
+The users listed depends on the context of the current permissions. In a Site only users in that site will be listed. Clickind ``Add users...`` allows users to be managed. Clicking the users initals will also remove them from the grid.
+
+A blank circle indicates the permission is non-granted where a filled in circle means that user has that permission. A partially filled circle indiactes that that parent permission contains a mix of granted and non-granted permissions. Currently parent permissions are only to indicate the status of child permissions and cannot be used to change the permissions within.
 
 Contexts
 --------
@@ -12,9 +19,9 @@ Contexts
 Context Site
 ++++++++++++
 
-Permissions in this context are related to the current Site only. Users already in the site can be managed. Any user added to a Site but not yet registered will be preceded with a ``@``. 
+Permissions in this context are related to the current Site only. Users already in the site can be managed. Any user added to a Site but not yet registered will be preceded with an ``@``. 
 
-All device within a Site can also be managed on an individual basis.
+All devices within a Site are managed on an individual basis.
 
 Context Portal
 ++++++++++++++
@@ -23,16 +30,14 @@ Permissions in this context are related all Sites in the current Portal. Users a
 
 Devices are managed across the whole Portal. 
 
-Some user settings are also available here. 
+Some User settings are also available here. 
 
-Note: Only SixEye Admins can adjust the ``set_permissions`` permissions in this context.
+Note: Only SixEye Admins can adjust the ``Set Permissions`` permissions in this context.
 
 Permissions functions
 ---------------------
 
-In each section each permission has its own function. Not shown are the ``Set Permissions`` sections. These are for setting who can set other users permissions whose functionality is explained in the following.
-
-Permissions here are listed as in the API. The SixEye UI may have naming differences.
+In each section each permission has its own function. Not shown here are the ``Set Permissions`` sections. These are for setting who can set other users permissions whose functionality is explained in the following.
 
 Context Site
 ------------
@@ -46,7 +51,7 @@ Permission          Function
 ``Device add``      Can add a device to the current Site  
 ``Owner``           Is granted all view permissions and ``Set Permissions`` permissions in the current site. There *must* be at least one owner per Site
 ``Self:Delete``     Can delete the current Site
-``Self:Edit all``   Can edit all attributes for the current Site eg. Name
+``Self:Edit all``   Can edit all attributes for the current Site
 ``Self:View all``   Can view the current Site
 ``User:Add``        Can add users to the current Site
 ``User:Delete``     Can delete users from the current Site
