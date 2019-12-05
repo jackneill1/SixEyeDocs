@@ -1,7 +1,7 @@
 Devices
 *******
 
-Oh look its some information about devices - how exciting.
+Devices are all individual. 
 
 Devices have unique attributes
 ==============================
