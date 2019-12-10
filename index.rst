@@ -15,4 +15,4 @@ Contents
    
    core/Basics
    core/Permissions
-   core/Devices
+   core/Sites
