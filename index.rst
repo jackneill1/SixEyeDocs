@@ -11,8 +11,9 @@ Contents
 ++++++++
 
 .. toctree::
-   :maxdepth: 3
+  :maxdepth: 3
    
-   core/Basics
-   core/Permissions
-   core/Sites
+  core/Basics
+  core/Permissions
+  core/Sites
+  core/Glossary

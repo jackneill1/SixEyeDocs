@@ -1,7 +1,7 @@
 Basics
 ******
 
-This section will cover some basic aspects 
+This section will cover some basic aspects of the SixEye solution.
 
 User Interface
 ++++++++++++++
@@ -23,6 +23,16 @@ Users
 
 Contains a list of all the users that you share a Site with and whome you have the correct permissions to view.
 
+Suspending a user
+-----------------
+
+- Select a user by clicking the circle to left of the users name
+- Click 'Suspend' in the toolbar
+
+Un-suspending a user can be achieved in the same way as described above.
+
+A suspended user will not be able to login to the :term:`portal`. 
+
 Permissions
 ===========
 
@@ -31,21 +41,3 @@ Contains the ability to change users permissions in a Site or Portal context. Al
 For more on permissions see the permissions_ section of this documentation.
 
 .. _permissions: Permissions.html
-
-Terminology
-+++++++++++
-
-Portal
-======
-
-The Portal is the core area where Sites are contained. A Portal can be branded to match the brand of that Portal provider.
-
-Sites
-=====
-
-A Site is a collection of information, typically containing some devices, users and the assocaited permissions for those users to view and interact with the devices in that Site. There are typically multiple Sites in a Portal.
-
-Device
-======
-
-A Device is a physical item that is SixEye Connected. This means that the manufacturer of that device has allowed the device to talk to the SixEye servers and send information and/or allow interactions from the device to SixEye.
