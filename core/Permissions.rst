@@ -45,25 +45,34 @@ Context Site
 Site
 ++++
 
-======================    ========  
-Permission                Function
-======================    ======== 
-``Control panel:Edit``    Placeholder
-``Control panel:View``    Placeholder
-``Device add``            Can add a device to the current Site  
-``Owner``                 Is granted all view permissions and ``Set Permissions`` permissions in the current site. There *must* be at least one owner per Site
-``Site:Delete``           Can delete the current Site
-``Site:Edit all``         Can edit all attributes for the current Site
-``Site:View all``         Can view the current Site
-``Task:Add``              Placeholder
-``Task:Delete``           Placeholder
-``Task:Edit``             Placeholder
-``Task:Execute``          Placeholder
-``Task:View``             Placeholder
-``User:Add``              Can add users to the current Site
-``User:Delete``           Can delete users from the current Site
-``User:View``             Can view all users in the current Site
-======================    ========
+======================================    ========  
+Permission                                Function
+======================================    ======== 
+``Control panel:Edit``                    Can edit the settings of the current Sites Control Panel
+``Control panel:View``                    Can view both the Control Panel and Control Panel editor
+``Device add``                            Can add a device to the current Site  
+``Owner``                                 Is granted all view permissions and ``Set Permissions`` permissions in the current site. There *must* be at least one owner per Site
+``Site:Delete``                           Can delete the current Site
+``Site:Edit all``                         Can edit all attributes for the current Site
+``Site:View all``                         Can view the current Site
+``Task:Add``                              Can add a new Task
+``Task:Delete``                           Can delete a Task
+``Task:Edit``                             Can edit all attributes of a Task, including editting its Actions
+``Task:Execute``                          Can run any Task regardless of any other permissions
+``Task:View``                             Can view all Tasks
+``Task Scheduler:Add``                    Can add a new Task Scheduler
+``Task Scheduler:Delete``                 Can delete a Task Scheduler
+``Task Scheduler:Edit``                   Can edit all attributes for a Task Scheduler including adding and removing Tasks
+``Task Scheduler:View``                   Can view all Task Schedulers
+``Task Scheduler:Calendar event view``    Can view all occurrences of Task Schedulers on the Events Calendar
+``Task Scheduler:Schedule:Add``           Can add a new Schedule to any Task Scheduler
+``Task Scheduler:Schedule:Delete``        Can delete a Schedule from any Task Scheduler
+``Task Scheduler:Schedule:Edit``          Can edit all attributes for a Schedules
+``Task Scheduler:Schedule:View``          Can view all Schedules
+``User:Add``                              Can add users to the current Site
+``User:Delete``                           Can delete users from the current Site
+``User:View``                             Can view all users in the current Site
+======================================    ======== 
 
 Device
 ++++++
