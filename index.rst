@@ -14,6 +14,7 @@ Contents
   :maxdepth: 3
    
   core/Basics
+  core/Quick Start
   core/Permissions
   core/Sites
   core/Glossary
