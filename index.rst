@@ -1,5 +1,5 @@
-SixEye Documentation
-********************
+SixEye Documentation Beta
+*************************
 
 Welcome to portal documentation for SixEye.
 
