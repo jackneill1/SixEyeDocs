@@ -9,19 +9,32 @@ User Interface
 .. figure:: img/interface.png
    :align:   left
 
-The User Interface in a SixEye portal is designed to be minimalistic and simple to use.
+The User Interface in a SixEye :term:`portal` is designed to be minimalistic and simple to use.
 
 On the left of the interface is the menu bar which is headed by the portals name and/or logo.
 
 My Sites
 ========
 
-Contains all of the Sites that you are a member of and have the appropriate permission to view. Clicking on a Site in the table will take you to that Site. Selecting the Site using the radio button to the left of the Site name will bring up any functions you can do to that Site.
+Contains all of the Sites that you are a member of and have the appropriate permission to view. Clicking on a Site in the table will take you to that Site. Selecting the Site using the radio button to the left of the Site name will show addition actions.
+
+Creating a Site
+---------------
+
+Simply click the 'Create site' button to add a new Site. A name will need to be provided. 
+
+Deleting a Site
+-----------------
+
+- Select a Site by clicking the circle to left of the Site name
+- Click 'Delete' in the toolbar
+
+Any Sites deleted will have the devices in it disconnected from the :term:`portal` and all users and setting removed. This cannot be undone.
 
 Users
 =====
 
-Contains a list of all the users that you share a Site with and whome you have the correct permissions to view.
+Contains a list of all the users who are visible to you across all Sites you are a User in.
 
 Suspending a user
 -----------------
@@ -31,12 +44,12 @@ Suspending a user
 
 Un-suspending a user can be achieved in the same way as described above.
 
-A suspended user will not be able to login to the :term:`portal`. 
+A suspended user will not be able to login to the :term:`:term:`portal``. 
 
 Permissions
 ===========
 
-Contains the ability to change users permissions in a Site or Portal context. All users will be able to see the permissions of users whome they share a Site with and have the correct permissions to view. It is likely only certain users will be able to edit those permissions.
+Contains the ability to change users permissions in a Site or :term:`portal` context. All users will be able to see the permissions of users whome they share a Site with and have the correct permissions to view. It is likely only certain users will be able to edit those permissions.
 
 For more on permissions see the permissions_ section of this documentation.
 

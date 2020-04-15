@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = u'SixEye'
-copyright = u'2019, SixEye'
+copyright = u'2020, SixEye'
 author = u'SixEye'
 
 # The short X.Y version
@@ -103,7 +103,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'SixEyedoc'
+htmlhelp_basename = 'SixEye Docs'
 
 
 # -- Options for LaTeX output ------------------------------------------------
